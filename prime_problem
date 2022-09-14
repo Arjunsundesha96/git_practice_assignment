@@ -1,0 +1,12 @@
+//1.Check if the number is a prime number or not?
+
+let num=17;
+ let factor=1;
+   for(let i=1;i<=num;i++)
+   {
+       if(num%num==0){
+           factor++;
+       }
+   } 
+   if(factor==2){console.log("Yes");}
+   else{console.log("No");}

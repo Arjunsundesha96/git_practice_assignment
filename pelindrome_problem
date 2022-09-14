@@ -1,0 +1,20 @@
+//You are given a string. 
+
+//The string is stored in a variable with the name str
+
+//PrintYes, if the string is a palindrome, else printNo.
+
+
+let str="nrupul";
+
+ let bag="";
+        for(let i=N;i>=0;i--)
+       {
+            bag=bag+str[i]+" ";
+        }
+        
+        if(bag==str){
+            console.log("Yes");
+        }else{
+            console.log("No");
+    }
